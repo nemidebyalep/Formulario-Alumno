@@ -1,0 +1,91 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-image: url(../imagen/parque.jpg);
+    background-size: 100vw 100vh; 
+    background-attachment: fixed;
+    margin: 0px;
+    
+}
+div{
+    width: 600px;
+    
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.titulo{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    background-color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: bisque;
+}
+.resto{
+    margin: auto;
+    width: 400px;
+    height: 180px;
+    background-color: bisque;
+    margin-top: 10px;
+   
+}
+#foi{
+    margin-left: 10px;
+}
+.name{
+    margin-right: 20px;
+    width: 220px;
+}
+.date{
+    margin-left: 19px;
+    margin-top: 5px;
+}
+.ep{
+    margin-left: 87px;
+    margin-top: 5px;
+
+}
+.ciclo{
+    margin-left: 150px;
+    margin-top: 5px;
+    
+}
+
+table{
+    width: 600px;
+    height: 15px;
+    font-size: 12px;
+    background-color: antiquewhite;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.tab{
+    width: 300px;
+    height: 15px;
+    font-size: 13px;
+    background-color: antiquewhite;
+}
+nav{
+    height: 30px;
+    background: crimson;
+    margin-top: 10px;
+}
+.enviar{
+    width: 80px;
+    height: 20px;
+    font-size: 15px;
+    margin-left: 160px;
+    margin-block-start: 5px;
+}
+#sex1{
+    margin-left: 105px; 
+    margin-top: 10px;   
+}
+#sex2{
+margin-left: 155px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Formulario Alumno</title>
+</head>
+<body>
+    <div id="cuerpo">
+     <section class="titulo">ALUMNO</section>
+     <section class="resto">
+         <label id= foi>  Nombres y Apellidos: </label> 
+         <input type="text" class="name" id="nombre"><br>
+         <label id= foi>  Fecha Nacimiento: 
+         <input type= "date" class="date" id="fecha"></label><br>
+         <label id= foi>  Sexo: 
+         <input type="radio"  name="sexo" id="sex1" value="M" >M <br>
+            <input type="radio"  name="sexo" id="sex2" value="F" >F<br>
+        </label>
+        <label id= foi>  Escuela  <select name="ep" id="ep" class="ep">
+            <option value="0">Selecionar</option>
+            <option value="Sistemas">Sistemas</option>
+            <option value="Alimentos">Alimentos</option>
+            <option value="Arquitectura">Arquitectura</option>
+            <option value="Civil">Civil</option>
+        </select></label><br>
+        <label id= foi>   Ciclo <br> <select name="ciclo" id="ciclo" class="ciclo">
+                    <option value="0">Selecionar</option>
+                    <option value="I">I</option>
+                    <option value="II">I</option>
+                    <option value="III">III</option>
+                    <option value="IV">I</option>
+                    <option value="V">V</option>
+                    <option value="VI">I</option>
+                    <option value="VII">VII</option>
+                    <option value="VIII">I</option>
+                    <option value="IX">VII</option>
+                    <option value="X">I</option>
+                </select>
+        </label><br>
+        <br>
+        <nav>
+        <input class=enviar type="submit" name="boton" value="Enviar" onclick="agregarFila()">
+    </nav>
+     </section>
+    </div>
+    
+    <div>
+        <table id="tablita" border="1">
+            <tr>
+                    <th class = tab>Nombres y Apellidos</th>
+                    <th class = tab>Fecha Nacimiento</th>
+                    <th class = tab>Sexo</th>
+                    <th class = tab>Escuela</th>
+                    <th class = tab>Ciclo</th>
+                  </tr>
+                </table>
+    </div> 
+    
+    <script src="js/scrip.js"></script>
+
+    
+
+</body>
+</html>
